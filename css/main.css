@@ -1,3 +1,12 @@
+.post-body p {
+  font-size: 0.9em;
+}
+.post-body a {
+  color: #0c8cd6;
+  margin-left: 0.5em;
+  text-decoration: none;
+  border: none;
+}
 :root {
   --body-bg-color: #eee;
   --content-bg-color: #fff;
@@ -182,7 +191,7 @@ body {
   background: var(--body-bg-color);
   color: var(--text-color);
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 2;
   min-height: 100%;
   position: relative;
@@ -1964,8 +1973,8 @@ pre code {
   text-align: center;
 }
 .posts-expand .post-title {
-  font-size: 1.5em;
-  font-weight: normal;
+  font-size: 2em;
+  font-weight: bold;
   margin: initial;
   overflow-wrap: break-word;
 }
@@ -2458,7 +2467,7 @@ ul.breadcrumb li:last-child {
   }
 }
 .site-brand-container {
-  background: #222;
+  background: #fcd2bf;
 }
 @media (max-width: 991px) {
   .site-nav-on .site-brand-container {
